@@ -3,6 +3,8 @@ import './navitem.js';
 import '../button/button.js';
 import '../menuClassCard/menuclasscard.js';
 import '../menuStoreCard/menustorecard.js';
+import '../menuNewsCard/menunewscard.js';
+import '../menuNewsVideo/menunewsvideo.js';
 
 import { Classes } from './contents/classes.js'
 import { Store } from './contents/store.js'

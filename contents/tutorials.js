@@ -77,10 +77,11 @@ export let Tutorials = /* html */`
                 col-span-1 md:col-span-1 
                 w-full">
                 <!-- Glyph Suffix -->
-                <svg slot="prefix" role="img" aria-label="glyph" style="width:1.5rem;height:2rem">
+                <svg slot="suffix" role="img" aria-label="glyph" style="width:1.5rem;height:2rem">
                     <use xlink:href="#syllabus-techniques"></use>
                 </svg>
                 Techniques
+                <div slot="description" class="text-green-400">430 movements</div>
             </ldnpk-button>
 
 
@@ -89,10 +90,11 @@ export let Tutorials = /* html */`
                 w-full 
                 ">
                 <!-- Glyph Suffix -->
-                <svg slot="prefix" role="img" aria-label="glyph" style="width:1.5rem;height:2rem">
+                <svg slot="suffix" role="img" aria-label="glyph" style="width:1.5rem;height:2rem">
                     <use xlink:href="#syllabus-demos"></use>
                 </svg>
                 Demos
+                <div slot="description" class="text-green-400">247 videos</div>
             </ldnpk-button>
 
 
@@ -101,10 +103,11 @@ export let Tutorials = /* html */`
                 w-full 
                 ">
                 <!-- Glyph Suffix -->
-                <svg slot="prefix" role="img" aria-label="glyph" style="width:1.5rem;height:2rem">
+                <svg slot="suffix" role="img" aria-label="glyph" style="width:1.5rem;height:2rem">
                     <use xlink:href="#syllabus-tutorials"></use>
                 </svg>
-                Tutorials
+                Syllabus
+                <div slot="description" class="text-green-400">151 video</div>
             </ldnpk-button>
 
         </div>
