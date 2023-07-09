@@ -1,5 +1,7 @@
 import './navbar.js';
 import './navitem.js';
+import '../link/link.js';
+import '../linkIcon/linkIcon.js';
 import '../button/button.js';
 import '../menuClassCard/menuclasscard.js';
 import '../menuStoreCard/menustorecard.js';

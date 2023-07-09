@@ -92,11 +92,9 @@ export const News = /* html */`
             class="max-h-80"
             >
             <img class="
-                object-scale-down 
+                object-cover
                 object-center
                 h-full
-                ls-is-cached
-                lazyloaded
                 "
                 src="https://cdn.midjourney.com/119f05e4-abaf-4c6d-b07e-5eedcaa1c8dd/0_3.png" 
                 alt="Midjourney Image" 
@@ -114,11 +112,9 @@ export const News = /* html */`
             class="max-h-80"
             >
             <img class="
-                object-scale-down 
+                object-cover 
                 object-center
                 h-full
-                ls-is-cached
-                lazyloaded
                 "
                 src="https://cdn.midjourney.com/8f474141-382f-452d-af8a-29d91bf862c6/0_0.png" 
                 alt="Midjourney Image" 
@@ -151,7 +147,7 @@ export const News = /* html */`
                 col-span-2
                 row-span-2
                 ">
-                <img class="h-full" src="https://cdn.discordapp.com/attachments/1096477865765249134/1127137987470307358/pearsonmidjourney_knolling_of_all_known_computer_plug_types_for_698e3433-6720-4cbd-92a2-55903e4caf0c.png" />
+                <img class="h-full w-full object-cover" src="https://cdn.discordapp.com/attachments/1096477865765249134/1127137987470307358/pearsonmidjourney_knolling_of_all_known_computer_plug_types_for_698e3433-6720-4cbd-92a2-55903e4caf0c.png" />
                 
             </ldnpk-menunewsvideo>
 
@@ -160,7 +156,7 @@ export const News = /* html */`
             ╰───────────────────────────────────────────────────────╯ -->
             <ldnpk-menunewsvideo href="https://londonparkour.com" class="">
 
-                <img src="https://cdn.discordapp.com/attachments/1096864430865797300/1127139184604348506/pearsonmidjourney_cockpit_of_space-ship_with_fighter-pilot_in_f_2c9282e1-b860-4be1-b56f-237727256e37.png">
+                <img class="h-full w-full object-cover" src="https://cdn.discordapp.com/attachments/1096864430865797300/1127139184604348506/pearsonmidjourney_cockpit_of_space-ship_with_fighter-pilot_in_f_2c9282e1-b860-4be1-b56f-237727256e37.png">
             </ldnpk-menunewsvideo>
 
         <!--╭───────────────────────────────────────────────────────╮
@@ -168,55 +164,95 @@ export const News = /* html */`
             ╰───────────────────────────────────────────────────────╯ -->
             <ldnpk-menunewsvideo href="https://londonparkour.com" class="">
 
-                <img src="https://cdn.discordapp.com/attachments/1096864430865797300/1127139613748777020/pearsonmidjourney_space_craft_style_of_chriss_foss_4bba7335-297c-4238-bfd8-3f9f5167030d.png">
+                <img class="h-full w-full object-cover" src="https://cdn.discordapp.com/attachments/1096864430865797300/1127139613748777020/pearsonmidjourney_space_craft_style_of_chriss_foss_4bba7335-297c-4238-bfd8-3f9f5167030d.png">
             </ldnpk-menunewsvideo>
         </div>
 
     <!--╭──────────────────────────────────────────────────────╮
         │                     PULSE LINKS                      │░
         ╰░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-        <ul class="text-white font-light">
+        <style>
+            #pulse-links ldnpk-linkicon { --glyphColour: var(--color-purple-400); }
+        </style>
+        <ul id="pulse-links" class="text-white font-light">
             <li>
-                <a>Full Dashboard</a>
+                <ldnpk-linkicon href="https://londonparkour.com">
+                    Full Dashboard
+                </ldnpk-linkicon>
             </li>
 
             <li>
-                <a>Curated Videos</a>
+                <ldnpk-linkicon href="https://londonparkour.com">
+                    Curated Videos
+                </ldnpk-linkicon>
             </li>
 
             <li>
-                <a>Daily Trending</a>
+                <ldnpk-linkicon href="https://londonparkour.com">
+                    Daily Trending
+                </ldnpk-linkicon>
             </li>
 
             <li>
-                <a>Weekly Hits</a>
+                <ldnpk-linkicon href="https://londonparkour.com">
+                    Weekly Hits
+                </ldnpk-linkicon>
             </li>
 
             <li>
-                <a>Monthly Popular</a>
+                <ldnpk-linkicon href="https://londonparkour.com">
+                    Monthly Popular
+                </ldnpk-linkicon>
             </li>
 
             <li>
-                <a>Podcasts</a>
+                <ldnpk-linkicon href="https://londonparkour.com">
+                    Podcasts
+                </ldnpk-linkicon>
             </li>
 
             <li>
-                <a>Female Athletes</a>
+                <ldnpk-linkicon href="https://londonparkour.com">
+                    Female Athletes
+                </ldnpk-linkicon>
             </li>
 
             <li>
-                <a>Parkour Teams</a>
+                <ldnpk-linkicon href="https://londonparkour.com">
+                    Parkour Teams
+                </ldnpk-linkicon>
             </li>
 
             <li>
-                <a>Random Historical</a>
+                <ldnpk-linkicon href="https://londonparkour.com">
+                    Random Historical
+                </ldnpk-linkicon>
             </li>
 
             <li>
-                <a>Daily Underdogs</a>
+                <ldnpk-linkicon href="https://londonparkour.com">
+                    Daily Underdogs
+                </ldnpk-linkicon>
             </li>
         </ul>
+
+
+
+
+    <!--╭──────────────────────────────────────────────────────╮
+        │                    BOTTOM LINKS                      │░
+        ╰░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+
+
+        <ldnpk-linkIcon class="col-span-2 text-white fill-white" href="https://londonparkour.com" >
+            All Posts
+            <svg slot="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12M8.6,16.6L13.2,12L8.6,7.4L10,6L16,12L10,18L8.6,16.6Z"/></svg>
+        </ldnpk-linkIcon>
+
+        <ldnpk-linkIcon class="col-span-4 text-white fill-white" href="https://londonparkour.com" >
+            All Videos
+            <svg slot="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12M8.6,16.6L13.2,12L8.6,7.4L10,6L16,12L10,18L8.6,16.6Z"/></svg>
+        </ldnpk-linkIcon>
 
     </div>
 
