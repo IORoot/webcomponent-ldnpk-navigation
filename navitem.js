@@ -47,7 +47,7 @@ html += /* html */`
 // ╰───────────────────────────────────────────────────────╯
 html += /* html */`
 
-    <li class="h-full group">
+    <li role="menuitem" aria-haspopup="true" class="h-full group">
         <div id="menuitem" class="
             h-full 
             static

@@ -53,15 +53,15 @@ html += /* html */`
 // ╰───────────────────────────────────────────────────────╯
 html += /* html */`
 
-    <nav class="
+    <nav aria-label="Main Menu" class="
         fixed           md:static
         bottom-0        md:top-0
         left-1          
         right-1         
         z-50
-        ">
+        " itemtype="https://schema.org/SiteNavigationElement">
         
-        <ul id="navbar" class="
+        <ul role="menu" id="navbar" class="
             flex 
             w-full 
             rounded-t-lg        md:rounded-none
