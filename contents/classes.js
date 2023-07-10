@@ -40,7 +40,9 @@ export const Classes = /* html */`
     │                      Top Button                      │░
     ╰░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
         <ldnpk-button shadow href="https://londonparkour.com" target="" class="
-            col-span-1 md:col-span-6">
+            col-span-2  md:col-span-6
+            overflow-hidden
+            w-full      md:w-auto">
             <!-- Glyph Prefix -->
             <svg slot="prefix" role="img" aria-label="glyph" style="width:2rem;height:2rem">
                 <use xlink:href="#glyph-classes"></use>

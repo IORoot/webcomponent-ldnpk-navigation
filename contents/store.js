@@ -51,7 +51,9 @@ export const Store = /* html */`
     │                      Top Button                      │░
     ╰░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
         <ldnpk-button shadow href="https://londonparkour.com" target="" class="
-            col-span-2 md:col-span-6
+            col-span-2  md:col-span-6
+            w-full      md:w-auto
+            overflow-hidden
             ">
             <!-- Glyph Prefix -->
             <svg slot="prefix" role="img" aria-label="glyph" style="width:2rem;height:2rem">
